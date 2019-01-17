@@ -1,0 +1,180 @@
+body ,html{           /*整個網頁*/
+height: 100%;
+width: 100%;
+margin: 0;
+font-size:16px;
+font-family: "Lato", sans-serif;
+font-weight: 400;
+line-height: 1.8em;
+color: #666;
+
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6{
+
+  position: relative;
+  opacity: 0.90;
+  background-position: center;
+  background-size: cover;  /*show full picture*/
+  background-repeat: no-repeat;
+
+
+  background-attachment: fixed;
+
+}
+.main-nav{
+float: right;
+list-style: none;
+margin-top: 3px;
+
+}
+
+
+.main-nav li{
+  display: inline-block;
+
+}
+
+.main-nav li a
+{
+
+color: white;
+text-decoration: none;
+padding: 5px 20px;
+font-family: "Roboto",san-sans-serif;
+font-size: 18px;
+
+}
+
+
+.main-nav li.active a{
+border: 1px solid white;
+
+}
+
+.main-nav li a:hover{
+  border: 1px solid yellow;
+
+
+}
+
+
+
+.row{
+/* padding-top: 29%;
+max-width: 70%;
+
+top:50%;
+width:100%; */
+
+position:absolute;
+top:60%;
+width:70%;
+
+color:#000;
+font-size: 18px;
+
+
+}
+
+
+
+
+.pimg1{
+background-image: url('https://media.giphy.com/media/rMhmB9uYPLWVi/giphy.gif');
+  min-height: 100%;
+}
+
+.pimg2{
+background-image: url('../img/image2.jpg');
+  min-height: 100%;
+}
+
+.pimg3{
+background-image: url('../img/image3.jpg');
+  min-height: 100%;
+}
+
+.pimg4{
+background-image: url('../img/image4.jpg');
+  min-height: 100%;
+}
+
+
+.pimg5{
+background-image: url('../img/image5.jpg');
+  min-height: 100%;
+}
+
+.pimg6{
+background-image: url('../img/image6.jpg');
+  min-height: 100%;
+}
+
+
+
+
+
+
+.section{
+
+text-align: center;
+padding: 10px;
+
+}
+
+
+.section-light{
+background-color: #f4f4f4;
+color:#666;
+
+}
+
+.section-dark{
+background-color: #282e34;
+color: orange;
+
+
+}
+
+
+
+
+.ptext{
+
+position:absolute;
+top:50%;
+width:100%;
+text-align: center;
+color:#000;
+font-size: 27px;
+letter-spacing:8px;
+text-transform:  uppercase;
+
+
+}
+
+
+
+.ptext .border {
+
+background-color:#111;
+color:#fff;
+padding:20px;
+
+}
+
+
+
+
+.ptext .border.trans {
+
+background-color: transparent;
+
+}
+
+
+.atext{
+
+  opacity: 0.1;
+}
